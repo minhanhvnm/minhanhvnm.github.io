@@ -4,25 +4,26 @@
 <head>
 	<title>Minh-Anh Nguyen</title>
 	<link href="css/reset.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link href="css/styles.css" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.css" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta charset="UTF-8">
 </head>
 
 <body>
 
-<div id="container"> <!-- WRAPPING DIV -->
+<div id="container" class="container"> <!-- WRAPPING DIV -->
 
 <header> 
-	<a href="./index.html"><h1><span id="name">Minh-Anh Nguyen</span> &mdash; Visual Communication Design</h1></a>
+	<a href="./index.html"><h1><span id="name">Minh-Anh Nguyen</span> <span id="vcd">&mdash; Visual Communication Design</span></h1></a>
 </header>
 
 <!-- ############# -->
 <!-- START CONTENT -->
 <!-- ############# -->
 
-<section id="projects-list">
+<section id="projects-list" class="row">
 
 	<div class="section-title">
 		<h3>Portfolio</h3>
@@ -65,7 +66,7 @@
 
 </section> <!-- END PROJECTS LIST -->
 
-<section id="about">
+<section id="about" class="row">
 
 	<div class="section-title">
 		<h3>About</h3>
@@ -73,13 +74,15 @@
 	</div> <!-- end section title -->
 
 	<div class="section-content">
-	<img id="minh-anh" src="images/minh-anh.jpg" class="full-image">
-		<div id="about-paragraph" class="paragraph">
-			<p>Hi, I&rsquo;m Minh-Anh. I&rsquo;m currently a senior in Visual Communication Design at the University of Washington. 
-			<p>I have been interested in design my entire life—my design career humbly began in the fifth grade, when, at the age of 10, I taught myself HTML and promptly began making HTML layouts on virtual cat websites for virtual cat money. I am currently in my third and final year in the Visual Communication Design program. I spent summer of 2016 interning at <a href="http://rice-creative.com">Rice Creative</a>, a design studio in Ho Chi Minh City, Vietnam. I also worked remotely with a team of designers in Seattle as part of AIGA's Design For Good Changemaker Series to rebrand Northwest Youth Services, a non-profit organizing serving homeless youth in Skagit and Whatcom Counties.
+		<div class="image-set row">
+			<img id="minh-anh" src="images/minh-anh.jpg" class="col-xs-12">
+		</div>
+		<div id="about-paragraph" class="col-xs-12 col-md-7 paragraph">
+			<p>Hi, I&rsquo;m Minh-Anh. I&rsquo;m a graphic designer, and a senior in the Visual Communication Design program at the University of Washington. 
+			<p>I have been interested in design my entire life—my design career humbly began in the fifth grade, when, at the age of 10, I taught myself HTML and promptly began making HTML layouts on virtual cat websites for virtual cat money. After entering the University of Washington several years early via the highly competitive UW Robinson Center's Early Entrance Program, I am currently an undergraduate senior in my third and final year in the Visual Communication Design program. I spent summer of 2016 interning at <a href="http://rice-creative.com">Rice Creative</a>, a design studio in Ho Chi Minh City, Vietnam. I also worked remotely with a team of designers in Seattle as part of AIGA's Design For Good Changemaker Series to rebrand Northwest Youth Services, a non-profit organizing serving homeless youth in Skagit and Whatcom Counties.
 			<p>Besides design, I&lsquo;m a big fan of classical piano, <a href="http://instagram.com/minhanhnv">photography</a>, disposable cameras, and taro bubble tea.
 		</div> <!-- end about paragraph -->
-		<div id="contact" class="paragraph side">
+		<div id="contact" class="paragraph side col-xs-12 col-md-5">
 			<p><span class="bold">Email</span> &mdash; minhanhvnm@gmail.com
 			<br><span class="bold">Phone</span> &mdash; 206.802.8242
 			<br><span class="bold">Behance</span> &mdash; <a href="http://behance.net/minhanhnv">behance.net/minhanhnv</a>
@@ -90,7 +93,7 @@
 
 </section> <!-- END ABOUT -->
 
-<section class="paragraph" id="footer">
+<section class="row paragraph" id="footer">
 	<p>&copy; Minh-Anh Nguyen 2016
 </section>
 
