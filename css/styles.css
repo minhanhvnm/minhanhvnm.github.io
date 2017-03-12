@@ -182,15 +182,19 @@ h4{
 	margin-bottom:24px;
 }
 
-#project1{
+#littlemusicguides{
 	background-image:url('../images/project1.jpg');
 }
-#project2{
+#opendiner{
 	background-image:url('../images/project2.jpg');
 	background-position:center top;
 }
-#project3{
+#united{
 	background-image:url('../images/project3.jpg');
+}
+#belgeddes
+{
+	background-image:url('../images/belgeddes.jpg');
 }
 
 /* -- MEDIA QUERIES --- */
