@@ -42,6 +42,11 @@ a:hover{
 	padding:0px;
 }
 
+.no-gutters{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
 /* IMAGES */
 .image-set{
 	padding-left:0px;
@@ -55,6 +60,9 @@ a:hover{
 }
 .image-set > div > a img.col-xs-12.col-md-6{
 	padding-top:30px;
+}
+iframe{
+	margin-bottom:30px;
 }
 
 /* HEADER */
@@ -143,6 +151,9 @@ em{
 	font-weight:bold;
 	text-transform:uppercase;
 }
+.bold-small{
+	font-weight:bold;
+}
 
 /* SIDE PARAGRAPH FORMATTING */
 .side{
@@ -151,9 +162,9 @@ em{
 	line-height:30px;
 }
 
-/* ************ */
-/* PROJECT GRID */
-/* ************ */
+/* ***** */
+/* INDEX */
+/* ***** */
 
 .project{
 	text-align:center;
@@ -198,6 +209,28 @@ h4{
 }
 #aura{
 	background-image:url('../images/aura.jpg');
+}
+
+/* **** */
+/* AURA */
+/* **** */
+
+.image-set.captioned{
+	overflow:hidden;
+}
+.captioned{
+	width:100%;
+	padding-bottom:30px;
+}
+div.image-set.captioned > div {
+	padding-top:20px;
+}
+
+.caption{
+	font-size:15px;
+	line-height:22px;
+	padding-left:50px;
+	padding-right:50px;
 }
 
 /* -- MEDIA QUERIES --- */

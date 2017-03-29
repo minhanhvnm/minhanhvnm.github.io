@@ -1,5 +1,6 @@
 "use strict";
 
+//fade boxes in / out
 $(function() { 
 		function fadeInOut(projectSelector) { 
 		var projectNameSelector = $(projectSelector.find('.project-name')[0]); 
@@ -29,6 +30,7 @@ $(function() {
 	})
 });
 
+//fancybox initialization
 $(function($){
         var addToAll = true;
         var gallery = true;
