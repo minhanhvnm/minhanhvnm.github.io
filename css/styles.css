@@ -211,6 +211,11 @@ h4{
 	background-image:url('../images/aura.jpg');
 }
 
+#minh-anh{
+	border-radius: 50%;
+	margin-bottom:30px;
+}
+
 /* **** */
 /* AURA */
 /* **** */
@@ -284,5 +289,8 @@ div.image-set.captioned > div {
 	iframe{
 		width:80%;
 		margin:auto;
+	}
+	#minh-anh{
+		margin-bottom:0px;
 	}
 }
