@@ -151,6 +151,9 @@ em{
 	font-weight:bold;
 	text-transform:uppercase;
 }
+.bold-small{
+	font-weight:bold;
+}
 
 /* SIDE PARAGRAPH FORMATTING */
 .side{
@@ -212,20 +215,20 @@ h4{
 /* AURA */
 /* **** */
 
+.image-set.captioned{
+	overflow:hidden;
+}
 .captioned{
 	width:100%;
-	padding-bottom:20px;
+	padding-bottom:30px;
 }
 div.image-set.captioned > div {
 	padding-top:20px;
 }
-div.image-set.captioned > div:first-child, .image-set.captioned div:nth-child(2){ /* removes top padding from first row */
-	padding-top:0px;
-}
+
 .caption{
 	font-size:15px;
 	line-height:22px;
-	display:inline-block;
 	padding-left:50px;
 	padding-right:50px;
 }
@@ -244,9 +247,6 @@ div.image-set.captioned > div:first-child, .image-set.captioned div:nth-child(2)
 @media screen and (max-width:992px){ /* medium */
 	.side{
 		padding-left:0px;
-	}
-	.image-set.captioned div:nth-child(2){
-		padding-top:20px; /* re-adds margin-top to second column of captioned images */
 	}
 }
 @media screen and (max-width:768px){ /* small */
