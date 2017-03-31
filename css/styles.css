@@ -62,6 +62,9 @@ a:hover{
 .image-set a:first-child > img.col-xs-12, .image-set a img.col-xs-12.col-md-6{
 	padding-top:0px;
 }
+.image-set a > img.col-md-3{
+	padding-top:0px; /* for image sets that starts with small images */
+}
 .image-set > div > a img.col-xs-12.col-md-6{
 	padding-top:30px;
 }
